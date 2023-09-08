@@ -1,0 +1,49 @@
+style.css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+    padding: 0;
+    height: 100vh;
+    overflow-y: scroll;
+}
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  background-color: rebeccapurple;
+height: 20%; 
+ width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.navigation.scrolled {
+  background-color: #4357af;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  justify-content: center;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #d42828;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #555;
+  color: #fff;
+
+}
+.element {
+  margin-top: 20px; /* Creates a 20px space above the element */
+}
+
+
